@@ -1,0 +1,132 @@
+.title{
+    text-align: center;
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    color: white;
+    font-size: 200px;
+    background-image: url(images/grindelwald.avif );
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 20px ridge rgb(196, 95, 0);
+    user-select: none;
+}
+
+.inleiding{
+    text-align: center;
+    font-size: 50px;
+    background-color: #111;
+    color: white;
+}
+
+#par_1{
+    text-align: center;
+    font-size: 50px;
+    background-color: #111;
+    color: white;
+}
+
+#overview{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    z-index: 1;
+}
+
+.card{
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 0;
+    height: 450px;
+    width: 450px;
+    background-color: #970000;
+    border-radius: 15px;
+    color: white;
+    font-size: 3rem ;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.card:hover{
+    opacity: .8;
+    background-image: none;
+    background-color: #111;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 1s ease;
+    z-index: 10000;
+}
+
+#card1{
+    background-image: url(images/1919-2019_WM-KB_Mont-Blanc_Bossons_4K.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -50px;
+    color: black;
+}
+
+#card2{
+    background-image: url(images/mountains-7ddde89.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -250px;
+    color: black;
+}
+
+#card3{
+    background-image: url(images/gallery_662bd61d3201eb200d418797bb0c99a2_de4096f376.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -50px;
+    color: rgb(255, 255, 255);
+}
+
+#card4{
+    background-image: url(images/planwoord-bedrijfsplanningsconcept_361816-7824.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -165px;
+    color: rgb(0, 0, 0);
+}
+
+#card5{
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -50px;
+    color: rgb(255, 255, 255);
+}
+
+#card6{
+    background-image: url(images/david-travis-5bYxXawHOQg-unsplash_resized_1280p.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -50px;
+    color: rgb(255, 255, 255);
+}
+
+#card7{
+    background-image: url(images/Presenteren-voor-een-grote-groep.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -50px;
+    color: rgb(0, 0, 0);
+}
+
+#card8{
+    background-image: url(images/geld-verdienen-met-je-eigen-boek.jpg);
+    background-size: cover;
+    background-position: -500px;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+}
+
+html{
+    background-image: url(images/abstract-digital-grid-black-background.jpg);
+}

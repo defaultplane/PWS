@@ -1,0 +1,194 @@
+html{
+    scroll-behavior: smooth scroll;
+    background-image: linear-gradient(180deg, #ffcf67, #fd5e5e);
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px;
+    grid-template-columns: 180px 180px 180px 180px 180px 180px 180px 180px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card{
+    border: 5px solid black;
+    border-radius: 10px;
+    transform: scale(1);
+    opacity: 1;
+}
+
+.card:hover{
+    transform: scale(1.07);
+    transition: all .8s ease-in-out;
+}
+
+#foto_1{
+    grid-row: 1/3;
+    grid-column: 1/5;
+    background-image: url("images_voor_foto/drone1.jpg");
+    background-size: cover;
+}
+
+#foto_2{
+    grid-row: 1/3;
+    grid-column: 6/9;
+    background-image: url("images_voor_foto/met_meer.jpg");
+    background-size: cover;
+}
+
+#foto_3{
+    grid-row: 3 / 6;
+    grid-column: 1 / 6;
+    background-image: url("images_voor_foto/tram.jpg");
+    background-size: cover;
+}
+
+#foto_4{
+    grid-row: 3 / 7;
+    grid-column: 7 / 9;
+    background-image: url(images_voor_foto/berg_met_bloem.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto_5{
+    grid-row: 7 / 9;
+    grid-column: 5 / 9;
+    background-image: url(images_voor_foto/bergje_met_boompjes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto_6{
+    grid-row: 6 / 9;
+    grid-column: 1 / 5;
+    background-image: url(images_voor_foto/bergje_plus_lawine.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto_7{
+    grid-row: 9 / 12;
+    grid-column: 2 / 5;
+    background-image: url(images_voor_foto/dal_van_waterdinges.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -150px;
+}
+
+#foto_8{
+    grid-row: 10 / 12;
+    grid-column: 6 / 9;
+    background-image: url(images_voor_foto/mooi_bergje.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto_9{
+    grid-row: 12 / 14;
+    grid-column: 1 / 4;
+    background-image: url(images_voor_foto/gletsjer_van_beneden.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -80px;
+}
+
+#foto_10{
+    grid-row: 12 / 14;
+    grid-column: 5 / 9;
+    background-image: url(images_voor_foto/boys_in_sneeuw.jpg);
+    background-size: 140%;
+    background-position: -140px;
+    background-repeat: no-repeat;
+}
+
+#foto_11{
+    grid-row: 14 / 17;
+    grid-column: 2 / 7;
+    background-image: url(images_voor_foto/bomen_mit_bergen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto_12{
+    grid-row: 14 / 17;
+    grid-column: 7 / 9;
+    background-image: url(images_voor_foto/guys_mit_berg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto_13{
+    grid-row: 17 / 19;
+    grid-column: 1 / 5;
+    background-image: url(images_voor_foto/huisje_rechts_onderin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto_14{
+    grid-row: 17 / 19;
+    grid-column: 6 / 8;
+    background-image: url(images_voor_foto/man_looking_in_the_distance.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -140px;
+}
+
+#foto_15{
+    grid-row: 19 / 22;
+    grid-column: 1 / 4;
+    background-image: url(images_voor_foto/coole_van_mij.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -280px;
+}
+
+#foto_16{
+    grid-row: 19 / 22;
+    grid-column: 5 / 9;
+    background-image: url(images_voor_foto/lawinetje.JPEG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto_17{
+    grid-row: 22 / 24;
+    grid-column: 2 / 6;
+    background-image: url(images_voor_foto/sicckkkkk.JPEG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto_18{
+    grid-row: 22 / 24;
+    grid-column: 7 / 9;
+    background-image: url(images_voor_foto/andere_JEPG.JPEG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px ;
+}
+
+#foto_19{
+    grid-row: 24 / 26;
+    grid-column: 1 / 5;
+    background-image: url(images_voor_foto/bovenkant_huis_mit_berg.JPEG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto_20{
+    grid-row: 24 / 26;
+    grid-column: 6 / 8;
+    background-image: url(images_voor_foto/boompjes_met_steentjes.JPEG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -200px;
+}
+
+.card:active{
+    transform: scale(1.3);
+    transition: all .2s ease-in;
+    z-index: 1000;
+}
